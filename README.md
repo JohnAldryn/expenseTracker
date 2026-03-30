@@ -1,16 +1,3 @@
-# flutter_application_1
+Expense Tracker App
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This Flutter-based Expense Tracker application was developed as a midterm practical project to demonstrate core mobile development skills, including UI layout, navigation, state management, persistence, and API integration. The app allows users to add and delete expenses, automatically calculates the total, and includes preloaded monthly data such as Food (₱2000), Clothes (₱2500), and Electricity & Water (₱1500). It uses Provider (ChangeNotifier) for efficient state management, where notifyListeners() updates the UI dynamically, and shared_preferences to ensure that data persists even after the app is closed and restarted. The application features a clean green-themed interface, smooth navigation between the Start, Expense List, and Add Expense screens, and a structured project architecture for maintainability. A sample REST API integration using the http package is also included with basic error handling and loading logic. The project is organized into models, providers, and screens folders, follows proper coding practices, and runs successfully on both emulator and physical devices without UI overflow issues.
