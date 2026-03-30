@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Expense Tracker',
         theme: ThemeData(
-          scaffoldBackgroundColor: Colors.green.shade100, // ✅ green background
+          scaffoldBackgroundColor: Colors.green.shade100, 
           primarySwatch: Colors.green,
         ),
         home: const StartScreen(),
